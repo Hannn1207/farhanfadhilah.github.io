@@ -370,9 +370,11 @@ footer .links a {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
   }
-  .about,
-  .pendidikan .row {
+  .about .row {
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  .pendidikan .row {
     justify-content: center;
   }
   .about .row .about-img img {
