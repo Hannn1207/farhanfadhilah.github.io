@@ -370,8 +370,10 @@ footer .links a {
   .navbar .navbar-nav a:hover::after {
     transform: scaleX(0.2);
   }
-  .about .row {
+  .about,
+  .pendidikan .row {
     flex-wrap: wrap;
+    justify-content: center;
   }
   .about .row .about-img img {
     height: 24rem;
@@ -391,15 +393,14 @@ footer .links a {
   .pendidikan p {
     font-size: 1.2rem;
   }
-  .jadwal,
   .kontak .row {
     flex-wrap: wrap;
   }
-  .jadwal,
+
   .kontak .row .map {
     height: 30rem;
   }
-  .jadwal,
+
   .kontak .row form {
     padding-top: 0;
   }
